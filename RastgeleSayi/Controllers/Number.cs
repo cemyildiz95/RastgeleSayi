@@ -22,7 +22,7 @@ namespace RastgeleSayi.Controllers
 
             Thread.Sleep(Int32.Parse(sleepTime) * 1000);
             var number = rand.Next(101);
-            string result = "{ lowerLimit: 0 , higherLimit: 100 , number: " + number +"}";
+            string result = "{ lowerLimit: 0 , higherLimit: 100 , number: " + number +" }";
 
             return result;
         }
